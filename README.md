@@ -1,6 +1,6 @@
 # Javascript Password Generator
 
-- Use String.fromCharCode to grab random values from browser character chart
+## Use String.fromCharCode to grab random values from browser character chart
 
 ```
 function getRandomLowerCase() {
@@ -21,20 +21,20 @@ function getRandomSymbol() {
 }
 ```
 
-- Simple way to parse a string to int
+## Simple way to parse a string to int
 
 ```
 const length = +lengthEl.value;
 ```
 
-- Good examples of working with booleans
+## Good examples of working with booleans
 
 ```
 const typesCount = lower + upper + number + symbol; // stores a value of 1 for each true value, and 0 for false
 const typesArr = [{ lower }, { upper }, { number }, { symbol }]; // creates an array of objects with the name as the key and the boolean value as its value
 ```
 
-- Copy text to the clipboard
+## Copy text to the clipboard
 
 ```
 clipboardEl.addEventListener("click", () => {
